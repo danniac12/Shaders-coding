@@ -1,0 +1,523 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.21641791, g: 0.21641791, b: 0.21641791, a: 1}
+  m_AmbientEquatorColor: {r: 0.21641791, g: 0.21641791, b: 0.21641791, a: 1}
+  m_AmbientGroundColor: {r: 0.21641791, g: 0.21641791, b: 0.21641791, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 10
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_AtlasSize: 1024
+    m_AO: 1
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVRFilteringMode: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ShowResolutionOverlay: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 1.73
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &1016946809
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1016946810}
+  m_Layer: 0
+  m_Name: Level
+  m_TagString: DGRandomLevel
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1016946810
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016946809}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1085174536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 17f655ff25205294b8d12b4685f40bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1085174537}
+  - component: {fileID: 1085174538}
+  m_Layer: 0
+  m_Name: DungeonGenerator
+  m_TagString: DungeonBuilder
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1085174537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 400000, guid: 17f655ff25205294b8d12b4685f40bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085174536}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1085174538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 11400000, guid: 17f655ff25205294b8d12b4685f40bc4,
+    type: 3}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085174536}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a423713d41d4a479823bf91055d745, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maximumObjects: 0
+  objectNoObject: 1
+  objectNoObjectNoObject: 0
+  generating: -1
+  pickStyle: 1
+  maxAmountOfCorridor: 6
+  currentCorridorCounter: 0
+  corridorPartCount: 0
+  minCorridorLength: 1
+  maxCorridorLength: 4
+  lessRandomCorridors: 0
+  roomChancePercentage: 53
+  minRoomWidth: 1
+  maxRoomWidth: 4
+  minRoomLength: 1
+  maxRoomLength: 4
+  minRoomHeigth: 1
+  maxRoomHeigth: 4
+  CornerWallChancePercentage: 51
+  staircaseChancePercentage: 10
+  stairCaseDirectionSetup: Random
+  stairCaseUp: 0
+  stairCaseDown: 0
+  stairCaseRandom: 1
+  sideCorridorChancePercentage: 2
+  maxAmountOfSideCorridor: 2
+  minSideCorridorLength: 2
+  maxSideCorridorLength: 5
+  wallObjectPercentage: 84
+  ceilingObjectPercentage: 82
+  floorObjectPercentage: 80
+  buildPointObject: {fileID: 100000, guid: 19989967fac301f439338bd2c42838e1, type: 3}
+  corridorPart: {fileID: 100000, guid: d853eabd4ae4d2c41b59f2051d97aaab, type: 3}
+  stairCasePart: {fileID: 100000, guid: 1c30d6ffbe3f2e24fa60ec2b02ccc987, type: 3}
+  splitterBuildPoint: {fileID: 100000, guid: caf373fd984afb041b7b71721d82ed34, type: 3}
+  roomBuildPoint: {fileID: 100000, guid: 1f69993701bb3e845a5b2014f2560c85, type: 3}
+  roomPart: {fileID: 100000, guid: 65befc723ada63b439d2ce5e067d30df, type: 3}
+  playerCharacter: {fileID: 100002, guid: 326df4f4fa539d34694f45f32e716abf, type: 3}
+  playerSpawnLocation: {x: -5, y: 0, z: 0}
+  level: {fileID: 1016946809}
+  corridorPartList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  stairCasePartList: []
+  splitterBuildPointsList: []
+  roomBuildPointsList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  roomPartList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  CorridorFloorModels:
+  - {fileID: 100004, guid: 018fd6215f1a7544dbc76750b40689bc, type: 3}
+  - {fileID: 100004, guid: 44c55263339fe5e4793252c54e90a5f5, type: 3}
+  - {fileID: 100004, guid: 3589b919ad0056d4db4c10ffab4833a6, type: 3}
+  - {fileID: 100004, guid: c263200477049e14aa384978a5b2204b, type: 3}
+  - {fileID: 100004, guid: 665b7661c54be87409e730e3d47e1db2, type: 3}
+  - {fileID: 100004, guid: 7e02289c36a57af48a3db26ea1c5177a, type: 3}
+  - {fileID: 100004, guid: c68e792f56f67e142b433ad48736252f, type: 3}
+  - {fileID: 100004, guid: c68e792f56f67e142b433ad48736252f, type: 3}
+  - {fileID: 100004, guid: c68e792f56f67e142b433ad48736252f, type: 3}
+  CorridorCeilingModels:
+  - {fileID: 100000, guid: b3b10972d16b56844a645a57f71596dd, type: 3}
+  - {fileID: 100004, guid: d5b9b9534413c2448a3df0c63c6b21d2, type: 3}
+  - {fileID: 100004, guid: 4ffae92471295d4448754ae748c0b95d, type: 3}
+  - {fileID: 100000, guid: 937d9a5f9e3e51f4c9d76b2cb846b27d, type: 3}
+  - {fileID: 100004, guid: 83e0a1fb41308734390a713d7ac127fa, type: 3}
+  - {fileID: 100000, guid: 5a51044be1a0b0b489b862109767b55f, type: 3}
+  CorridorWallModels:
+  - {fileID: 100004, guid: b6110b14c2a99ec44b9f7bca3f008b6b, type: 3}
+  - {fileID: 100004, guid: 6fbe42d6af0420246b64092933ce7c59, type: 3}
+  RoomFloorModels:
+  - {fileID: 100004, guid: 3d8fa51546fdf4d4f952fce82b198800, type: 3}
+  - {fileID: 100004, guid: cd7e100fc5c06ad45a52d5484479c118, type: 3}
+  - {fileID: 100004, guid: 417cf8473a3d15544a1ed4c980b69db2, type: 3}
+  - {fileID: 100004, guid: 417cf8473a3d15544a1ed4c980b69db2, type: 3}
+  - {fileID: 100004, guid: 417cf8473a3d15544a1ed4c980b69db2, type: 3}
+  - {fileID: 100004, guid: 417cf8473a3d15544a1ed4c980b69db2, type: 3}
+  - {fileID: 100004, guid: 417cf8473a3d15544a1ed4c980b69db2, type: 3}
+  - {fileID: 100004, guid: a1ccb1514215e1c449b121c69819500b, type: 3}
+  - {fileID: 100004, guid: 0fd073ce8b41dd745acb227ca1f917f1, type: 3}
+  - {fileID: 100004, guid: ced1eb146ab76f7458828ce814f34db1, type: 3}
+  RoomCeilingModels:
+  - {fileID: 100000, guid: 3f0be36f119013e4091ce63d6a1f351f, type: 3}
+  - {fileID: 100000, guid: 2a7b12093b224d44185528dd0bdf410e, type: 3}
+  - {fileID: 100000, guid: 699b0ebbb31e5174ab0aeeb8c40f994f, type: 3}
+  RoomWallModels:
+  - {fileID: 100004, guid: 82885859ffaefdd41945030129ffe10f, type: 3}
+  - {fileID: 100000, guid: 92ce5782ed99f8246bfd3f2f8dce731f, type: 3}
+  - {fileID: 100000, guid: d3cd5a13238a4fc4d84a87add9bcc451, type: 3}
+  - {fileID: 100004, guid: 4285cf5227bcc374d94d762a748a65ec, type: 3}
+  - {fileID: 100004, guid: 9cbf4c35588536b4988589abe39c1a64, type: 3}
+  - {fileID: 100004, guid: 868b220ee4209ce43a220687a81dbc16, type: 3}
+  RoomCornerWallModels:
+  - {fileID: 100006, guid: 5f2850c11e2935649b4be37a9e1865a8, type: 3}
+  - {fileID: 100008, guid: b148ebe91f4253d459cb66fbfc14e1b6, type: 3}
+  - {fileID: 100006, guid: 22176dc472877a24885d4073f349c359, type: 3}
+  - {fileID: 100008, guid: 2cac01902feb0e44180dcf71ecaf3660, type: 3}
+  - {fileID: 100006, guid: 2701b37653d91944dbb4286925c49a55, type: 3}
+  - {fileID: 100008, guid: ad34991b38dec074f91d8433357eefc1, type: 3}
+  RoomDoorModels:
+  - {fileID: 100088, guid: 0e1a021c2ebb18c47b6fe45dc89fe80a, type: 3}
+  - {fileID: 100144, guid: c3fb5c90c9aab07469e001412cb57d62, type: 3}
+  - {fileID: 100036, guid: 39a4c4ccb41394a4b89ded015aa1a4cd, type: 3}
+  - {fileID: 100084, guid: 24b9aa3983c275f4ea886bebec24abcf, type: 3}
+  corridorPrimaryWallObjects:
+  - {fileID: 100000, guid: 05f00a0b7d338ce4b99fca4d1a45ebef, type: 3}
+  - {fileID: 100000, guid: 9e698083ee5bbab449d0a2a84edbcd1a, type: 3}
+  corridorPrimaryCeilingObjects: []
+  corridorPrimaryFloorObjects: []
+  corridorSecundaryWallObjects:
+  - {fileID: 100000, guid: 63fbf1085ac6b9d4c98e7a32a4986f88, type: 3}
+  - {fileID: 100000, guid: e5b05bbaa1673b145bd3c3b6dcd44b32, type: 3}
+  - {fileID: 100000, guid: aaf610f837d0bf4418c0d8ec8bb396a1, type: 3}
+  corridorSecundaryCeilingObjects: []
+  corridorSecundaryFloorObjects:
+  - {fileID: 100000, guid: 5f3bca10fbb46c64d8d7de66a67a453d, type: 3}
+  - {fileID: 100000, guid: 422c0c34b9af51a4e864a85a59d420b0, type: 3}
+  - {fileID: 100000, guid: 9816460c05fdace4cac6764a81edb37b, type: 3}
+  roomPrimaryWallObjects: []
+  roomPrimaryCeilingObjects: []
+  roomPrimaryFloorObjects:
+  - {fileID: 100000, guid: 15aaff07a0ea6f74c9bd9987c8a7edb8, type: 3}
+  roomSecundaryWallObjects:
+  - {fileID: 100000, guid: 676790bd9b3e9b347a4fba21b2094b77, type: 3}
+  - {fileID: 100000, guid: b955b7c8762f9d84293b5fdb9326a450, type: 3}
+  - {fileID: 100000, guid: 82546f8866eda9649a6638d5a5f32c50, type: 3}
+  - {fileID: 100000, guid: 5505681e486b08e499b7dfc41e1621d6, type: 3}
+  - {fileID: 100000, guid: f22330117e030a748914b73fca6e5682, type: 3}
+  - {fileID: 100000, guid: eb585798160e6c540a7bddebaed95dd2, type: 3}
+  - {fileID: 100000, guid: 68c334dcc720d794e9b71bdc564f6ed5, type: 3}
+  - {fileID: 100000, guid: 4d1ee1ac21857e343b3ced81ac0e7da7, type: 3}
+  - {fileID: 100000, guid: 89ee46aa26e4062438ce4aea3da91266, type: 3}
+  - {fileID: 100000, guid: 13e9087f051035c41945163310ce4f80, type: 3}
+  - {fileID: 100000, guid: f20f972793ec2e94f931573727c8eed8, type: 3}
+  - {fileID: 100000, guid: bac072b9db4304841bfba426c9f6af99, type: 3}
+  - {fileID: 100000, guid: b072187474a7fd747b456b1657c15c67, type: 3}
+  - {fileID: 100000, guid: 3b9e50ec27e72c345b99b794e99a36cf, type: 3}
+  - {fileID: 100000, guid: 4756205882492074b9b41aa6b44e36f4, type: 3}
+  - {fileID: 100000, guid: 60afb63666a9da044af785aa404b9746, type: 3}
+  - {fileID: 100000, guid: 3e934e7bcd0b2534da44a06d926c6dd7, type: 3}
+  - {fileID: 100000, guid: 413d1a6cb51160d4a90b6580831ee327, type: 3}
+  - {fileID: 100000, guid: e89255432024b204ab134b3bd2c2ab8a, type: 3}
+  - {fileID: 100000, guid: 9918347368477064a958a3f3179a6154, type: 3}
+  - {fileID: 100000, guid: 0237df10cb42d6f468debe75d5987360, type: 3}
+  - {fileID: 100000, guid: 14dc8ddc467a1ec41b7e30e4a4ae49a6, type: 3}
+  - {fileID: 100000, guid: 5d378c778324a004c8d02fef599bd594, type: 3}
+  - {fileID: 100000, guid: 5ef2f584d938a654b8b87134bc126f10, type: 3}
+  - {fileID: 100000, guid: 65411851560576f4cb01751f980ea9a7, type: 3}
+  - {fileID: 100000, guid: 9790b070dc9acdb47855b6c3c31f58b8, type: 3}
+  - {fileID: 100000, guid: 1ca6526157edc8848aea9b13d101cc12, type: 3}
+  - {fileID: 100000, guid: e77f7542e8484294fa51680c7924a1ba, type: 3}
+  roomSecundaryCeilingObjects:
+  - {fileID: 100000, guid: a2e8a44b41d148a4486c938c2f8c3a49, type: 3}
+  - {fileID: 100000, guid: 60cfe6c275d163a429792a0c5e0605ac, type: 3}
+  - {fileID: 100000, guid: e0b890137fd9e6e47b5d6dcfd221cf82, type: 3}
+  - {fileID: 100000, guid: db2f3a7dd51627046bdd30db8e8327cf, type: 3}
+  - {fileID: 100000, guid: 08d5400720ab063408fcd3d5bc901368, type: 3}
+  - {fileID: 100000, guid: 231e662e775572b4a8d71904bb6fcea9, type: 3}
+  - {fileID: 100000, guid: 27c94226bcc2d0442a3a4988a0ac4e7c, type: 3}
+  roomSecundaryFloorObjects:
+  - {fileID: 100000, guid: 3a1151bfba9ff1a49be219b83f069ec5, type: 3}
+  - {fileID: 100000, guid: cbe3ad789d92a564f909660b793a904e, type: 3}
+  - {fileID: 100000, guid: d16e2db9790311b4ca1c2e3402431f4f, type: 3}
+  - {fileID: 100000, guid: 8cbc035ed8dd7234e84c05a0f94eb33e, type: 3}
+  - {fileID: 100000, guid: 48fca0dd27e9e1d46a9d084e215a854d, type: 3}
+  - {fileID: 100000, guid: 82a0add83fc7ece45bfb367f3577bea4, type: 3}
+  - {fileID: 100000, guid: 2fe3d2d19ac13a74cb01455d8f033923, type: 3}
+  - {fileID: 100000, guid: b77c25cf7f119ff47b03742eafb5508f, type: 3}
+  - {fileID: 100000, guid: 72f2240a60625934da69831a28bf7f10, type: 3}
+  - {fileID: 100000, guid: f89b4956a4847e14294562b3d7f4fbc7, type: 3}
+  - {fileID: 100000, guid: 4a6e638d1eb75584bb417f27d3c9d50f, type: 3}
+  - {fileID: 100000, guid: 41300f725a395894da8714bc3bf692f1, type: 3}
+  - {fileID: 100000, guid: ec26956e902d27449b0a633e600ebb20, type: 3}
+  - {fileID: 100000, guid: 83d84f42289c3a246a6a4b765badae96, type: 3}
+  - {fileID: 100000, guid: 6958762b8624f804f93ee9f4cec67352, type: 3}
+  - {fileID: 100000, guid: 652ce1be1ea14c9429f174fcf14bc9ff, type: 3}
+  - {fileID: 100000, guid: 6f081a5a5232fc942833a783723651d2, type: 3}
+  - {fileID: 100000, guid: b0b61dd858bd4794981cb50aec3a2d0a, type: 3}
+  - {fileID: 100000, guid: 2d4d981bb7dc151429dea37b05942d6d, type: 3}
+  - {fileID: 100000, guid: 5339b6118d641e54088de0710b1f6b86, type: 3}
+  - {fileID: 100000, guid: 09cc1cc4f1e38bc4aa18b4a147bfe849, type: 3}
+  - {fileID: 100000, guid: d6942a9492f319f41aa4cf7b20c5d139, type: 3}
+  objectsBuildCounter: 85
+  finishingPortalModels:
+  - {fileID: 100038, guid: fdf37ba8178adea4aa8eb9859d728c48, type: 3}
+  - {fileID: 100004, guid: 14a1b8dc2e3eca74f94c4c1684e6ed94, type: 3}
+  finishingWindowModels:
+  - {fileID: 100056, guid: 791b8329f83e0e141bfd2f85e9e987bb, type: 3}
+  - {fileID: 100010, guid: a3c4c7f55d6d6144fadb3bfdc20a01f6, type: 3}
+  finishingEndWallModels:
+  - {fileID: 100004, guid: 25b8fa69a950d5743b73f8199c0f095f, type: 3}
+  - {fileID: 100004, guid: d7f715620658f164286394d14ccd3f4d, type: 3}
+  finishingRailingModels:
+  - {fileID: 100034, guid: d0a0b0552fb542647b9903eafeae0cbe, type: 3}
+  - {fileID: 100004, guid: b00ea4c986d6bad4e95279a649d54008, type: 3}
+  finishingEndRailingModels:
+  - {fileID: 100022, guid: fd9df68f0fb3cd94c8384e3e27efc6e7, type: 3}
+  - {fileID: 100004, guid: 5cccc36d73ce0a14e96aed4e8fdedd7d, type: 3}
+  finishingStairCaseModels:
+  - {fileID: 100092, guid: e899407cb36e88445990eee7d2ea73a3, type: 3}
+  - {fileID: 100046, guid: 59f0713c2fd99ed4993eab9a9960111f, type: 3}
+  - {fileID: 100046, guid: 8a2e17a1d62f11c4097db5e3a811d6a5, type: 3}
+  corridorTypes:
+  - Fancy
+  - Stone
+  corridorPrimarySpacingTypes:
+  - objectNoObject
+  roomTypes:
+  - Armory
+  - Dining
+  - Prison
+  finishingModelTypes:
+  - Roman
+  - Simple
+  userCorridorTypes:
+  - Fancy
+  - Stone
+  userRoomTypes:
+  - Armory
+  - Dining
+  - Prison
+  userFinishingModelTypes:
+  - Roman
+  - Simple
+  corridorPartListCounter: 0
+  splitterListCounter: 0
+  roomBuilderListCounter: 0
+  roomPartListCounter: 0
+  stairCasePartListCounter: 0
+  SpiralLeft: 0
+  SpiralRight: 0
+  deadSpots: 1
+  tempCounter: 0
+  tempNumber: 0

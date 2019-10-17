@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Template_LightCeiling
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.225544, y: -12.0889435, z: -5.7001953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62da5747bb6a4048a9de308dc811dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabModel: {fileID: 100004, guid: f7b03017d4349334f90a696d787d7365, type: 3}
+  ObjectLocation: 1
+  PlacementRotation: 0
+  ParentCollider: {fileID: 0}
+  ObjectOrientation: 
+  _rightWallTouching: 0
+  _leftWallTouching: 0
+  _frontWallTouching: 0
+  _backWallTouching: 0
+  _ceilingTouching: 0
+  _floorTouching: 0
+  RoomObject: 1
+  CorridorObject: 0
+  Primary: 0
+  Secundary: 1
+  RoomWallObject: 0
+  RoomCeilingObject: 1
+  RoomFloorObject: 0
+  CorridorWallObject: 0
+  CorridorCeilingObject: 0
+  CorridorFloorObject: 0
+  smallObject: 1
+  LeftSize: 0
+  RightSize: 0
+  FrontSize: 0
+  BackSize: 0
+  AboveSize: 0
+  BelowSize: 0
+  WallTouching: 0
+  WallTouchingOne: 0
+  WallTouchingTwo: 0
+  CornerTouching: 0
+  CornerTouchingOne: 0
+  CornerTouchingTwo: 0
+  WallNotTouching: 0
+  WallNoMatter: 1
+  CeilingTouching: 0
+  CeilingTouchingOne: 0
+  CeilingTouchingTwo: 0
+  CeilingNotTouching: 0
+  CeilingNoMatter: 0
+  FloorTouching: 0
+  FloorTouchingOne: 0
+  FloorTouchingTwo: 0
+  FloorNotTouching: 0
+  FloorNoMatter: 1
+  TouchingWall: notMatter
+  TouchingCeiling: notMatter
+  TouchingFloor: notMatter
+  CheckingPrimary: 0

@@ -1,0 +1,178 @@
+fileFormatVersion: 2
+guid: 86bc4ad7790bd15499c52d4d1b6a22e6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Box006
+    100002: Box019
+    100004: Box020
+    100006: Box022
+    100008: Box023
+    100010: Cylinder006
+    100012: lantarn_ceiling__top
+    100014: lantarn_ceiling_bottom
+    100016: lantarn_ceiling_candle_holder
+    100018: lantarn_ceiling_frame
+    100020: lantarn_ceiling_holder
+    100022: lantarn_ceiling_ring_a
+    100024: lantarn_ceiling_ring_b
+    100026: lantarn_ceiling_ring_c
+    100028: lantarn_ceiling_spikes_a
+    100030: lantarn_ceiling_spikes_b
+    100032: lantarn_ceiling_spikes_c
+    100034: lantarn_ceiling_spikes_d
+    100036: //RootNode
+    400000: Box006
+    400002: Box019
+    400004: Box020
+    400006: Box022
+    400008: Box023
+    400010: Cylinder006
+    400012: lantarn_ceiling__top
+    400014: lantarn_ceiling_bottom
+    400016: lantarn_ceiling_candle_holder
+    400018: lantarn_ceiling_frame
+    400020: lantarn_ceiling_holder
+    400022: lantarn_ceiling_ring_a
+    400024: lantarn_ceiling_ring_b
+    400026: lantarn_ceiling_ring_c
+    400028: lantarn_ceiling_spikes_a
+    400030: lantarn_ceiling_spikes_b
+    400032: lantarn_ceiling_spikes_c
+    400034: lantarn_ceiling_spikes_d
+    400036: //RootNode
+    2300000: Box006
+    2300002: Box020
+    2300004: Box022
+    2300006: Box023
+    2300008: lantarn_ceiling__top
+    2300010: lantarn_ceiling_bottom
+    2300012: lantarn_ceiling_candle_holder
+    2300014: lantarn_ceiling_frame
+    2300016: lantarn_ceiling_holder
+    2300018: lantarn_ceiling_ring_a
+    2300020: lantarn_ceiling_ring_b
+    2300022: lantarn_ceiling_ring_c
+    2300024: lantarn_ceiling_spikes_a
+    2300026: lantarn_ceiling_spikes_b
+    2300028: lantarn_ceiling_spikes_c
+    2300030: lantarn_ceiling_spikes_d
+    3300000: Box006
+    3300002: Box020
+    3300004: Box022
+    3300006: Box023
+    3300008: lantarn_ceiling__top
+    3300010: lantarn_ceiling_bottom
+    3300012: lantarn_ceiling_candle_holder
+    3300014: lantarn_ceiling_frame
+    3300016: lantarn_ceiling_holder
+    3300018: lantarn_ceiling_ring_a
+    3300020: lantarn_ceiling_ring_b
+    3300022: lantarn_ceiling_ring_c
+    3300024: lantarn_ceiling_spikes_a
+    3300026: lantarn_ceiling_spikes_b
+    3300028: lantarn_ceiling_spikes_c
+    3300030: lantarn_ceiling_spikes_d
+    4300000: lantarn_ceiling_spikes_d
+    4300002: Box006
+    4300004: lantarn_ceiling_bottom
+    4300006: lantarn_ceiling__top
+    4300008: lantarn_ceiling_candle_holder
+    4300010: Box020
+    4300012: lantarn_ceiling_frame
+    4300014: Box022
+    4300016: Box023
+    4300018: lantarn_ceiling_holder
+    4300020: lantarn_ceiling_ring_a
+    4300022: lantarn_ceiling_ring_b
+    4300024: lantarn_ceiling_ring_c
+    4300026: lantarn_ceiling_spikes_c
+    4300028: lantarn_ceiling_spikes_b
+    4300030: lantarn_ceiling_spikes_a
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

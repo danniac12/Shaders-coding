@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 400000}
+  - component: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: Armory_ShootingRange
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -28.225544, y: -12.0889435, z: -5.7001953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e62da5747bb6a4048a9de308dc811dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefabModel: {fileID: 100056, guid: ae5cd98b51ee73a44a341be2b7f3d32b, type: 3}
+  ObjectLocation: 3
+  PlacementRotation: 0
+  ParentCollider: {fileID: 0}
+  ObjectOrientation: 
+  _rightWallTouching: 0
+  _leftWallTouching: 0
+  _frontWallTouching: 0
+  _backWallTouching: 0
+  _ceilingTouching: 0
+  _floorTouching: 0
+  RoomObject: 1
+  CorridorObject: 0
+  Primary: 0
+  Secundary: 1
+  RoomWallObject: 0
+  RoomCeilingObject: 0
+  RoomFloorObject: 1
+  CorridorWallObject: 0
+  CorridorCeilingObject: 0
+  CorridorFloorObject: 0
+  smallObject: 0
+  LeftSize: 0
+  RightSize: 0
+  FrontSize: 2
+  BackSize: 0
+  AboveSize: 0
+  BelowSize: 0
+  WallTouching: 0
+  WallTouchingOne: 0
+  WallTouchingTwo: 0
+  CornerTouching: 0
+  CornerTouchingOne: 0
+  CornerTouchingTwo: 0
+  WallNotTouching: 1
+  WallNoMatter: 0
+  CeilingTouching: 0
+  CeilingTouchingOne: 0
+  CeilingTouchingTwo: 0
+  CeilingNotTouching: 0
+  CeilingNoMatter: 1
+  FloorTouching: 0
+  FloorTouchingOne: 0
+  FloorTouchingTwo: 0
+  FloorNotTouching: 0
+  FloorNoMatter: 0
+  TouchingWall: notTouching
+  TouchingCeiling: notMatter
+  TouchingFloor: notMatter
+  CheckingPrimary: 0

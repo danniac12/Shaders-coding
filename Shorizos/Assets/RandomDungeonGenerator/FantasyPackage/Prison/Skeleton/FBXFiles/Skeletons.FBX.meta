@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 493425cd0afdc5143b7b327d9d7efec6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Line019
+    100002: Line020
+    100004: Line021
+    100006: Line022
+    100008: Line023
+    100010: Line026
+    100012: Line025
+    100014: Cylinder005
+    100016: GeoSphere004
+    100018: Skull_jaw_low002
+    100020: //RootNode
+    100022: Line001
+    100024: Line003
+    100026: Line004
+    100028: Line005
+    100030: Line006
+    100032: Line008
+    100034: Line009
+    100036: Cylinder004
+    100038: Line017
+    100040: Line018
+    100042: Line028
+    100044: Line027
+    400000: Line019
+    400002: Line020
+    400004: Line021
+    400006: Line022
+    400008: Line023
+    400010: Line026
+    400012: Line025
+    400014: Cylinder005
+    400016: GeoSphere004
+    400018: Skull_jaw_low002
+    400020: //RootNode
+    400022: Line001
+    400024: Line003
+    400026: Line004
+    400028: Line005
+    400030: Line006
+    400032: Line008
+    400034: Line009
+    400036: Cylinder004
+    400038: Line017
+    400040: Line018
+    400042: Line028
+    400044: Line027
+    2300000: Line019
+    2300002: Line020
+    2300004: Line021
+    2300006: Line022
+    2300008: Line023
+    2300010: Line026
+    2300012: Line025
+    2300014: Cylinder005
+    2300016: GeoSphere004
+    2300018: Skull_jaw_low002
+    2300020: Line001
+    2300022: Line003
+    2300024: Line004
+    2300026: Line005
+    2300028: Line006
+    2300030: Line008
+    2300032: Line009
+    2300034: Cylinder004
+    2300036: Line017
+    2300038: Line018
+    2300040: Line028
+    2300042: Line027
+    3300000: Line019
+    3300002: Line020
+    3300004: Line021
+    3300006: Line022
+    3300008: Line023
+    3300010: Line026
+    3300012: Line025
+    3300014: Cylinder005
+    3300016: GeoSphere004
+    3300018: Skull_jaw_low002
+    3300020: Line001
+    3300022: Line003
+    3300024: Line004
+    3300026: Line005
+    3300028: Line006
+    3300030: Line008
+    3300032: Line009
+    3300034: Cylinder004
+    3300036: Line017
+    3300038: Line018
+    3300040: Line028
+    3300042: Line027
+    4300000: Line016
+    4300002: Cylinder005
+    4300004: Line025
+    4300006: Skull_jaw_low001
+    4300008: GeoSphere002
+    4300010: Line023
+    4300012: Line022
+    4300014: Line021
+    4300016: Line020
+    4300018: Line019
+    4300020: Line018
+    4300022: Line017
+    4300024: Cylinder004
+    4300026: Line009
+    4300028: Line008
+    4300030: Line006
+    4300032: Line005
+    4300034: Line004
+    4300036: Line003
+    4300038: Line001
+    4300040: Skull_jaw_low002
+    4300042: Line026
+    4300044: Line027
+    4300046: Line028
+    4300048: GeoSphere004
+    11100000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
